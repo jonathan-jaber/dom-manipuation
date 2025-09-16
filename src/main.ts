@@ -1,9 +1,14 @@
 const element = document.getElementById("characters");
 
-// for (const element of elements){
+document.addEventListener("DOMContentLoaded", () => {
+
+    // color all the characters <p> items
+})
+
+for (const element of elements){
     
-//     element.style.backgroundColor = "#CCC";
-// }
+    element.style.backgroundColor = "#CCC";
+}
 
 const itemInput = document.querySelector<HTMLInputElement>("itemInput");
 const addButton = document.querySelector("#addButton");
