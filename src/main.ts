@@ -1,13 +1,13 @@
 const element = document.getElementById("characters");
+const output = document.querySelector("#output");
+const charButton = document.querySelector("#charButton");
+const publisherButton = document.querySelector("#publisherButton");
+const itemInput = document.querySelector<HTMLInputElement>("#itemInput")!;
 
 document.addEventListener("DOMContentLoaded", () => {
 
     // color all the characters <p> items
 })
-
-const output = document.querySelector("#output");
-const charButton = document.querySelector("#charButton");
-const publisherButton = document.querySelector("#publisherButton");
 
 charButton.addEventListener("click", () => {
     output.innerHTML = "<div><p>Mario</p>" + "<p>Sonic</p>" + "<p>PacMan</p></div>";
