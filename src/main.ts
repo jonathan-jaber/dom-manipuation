@@ -7,6 +7,7 @@ const itemInput = document.querySelector<HTMLInputElement>("#itemInput")!;
 document.addEventListener("DOMContentLoaded", () => {
 
     // color all the characters <p> items
+    
 })
 
 charButton.addEventListener("click", () => {

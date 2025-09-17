@@ -1,0 +1,14 @@
+.activeButton {
+    font-weight: bold;
+    background-color: red;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+}
